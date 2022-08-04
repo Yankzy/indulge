@@ -23,7 +23,8 @@
     "test": "react-scripts test",
     "login": "clasp login",
     "clone": "clasp clone --rootDir ./App",
-    "push": "clasp push -w",
+    "push": "clasp push",
+    "watch": "clasp push -w",
     "pull": "clasp pull ./App",
     "gstart": "parcel src/index.html --dist-dir ./App",
     "gbuild": "parcel build src/index.html --dist-dir ./App"
